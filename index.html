@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Traveler</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" href="img/icono.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- CABECERA GLOBAL DEL SITIO -->
+  <header class="site-header">
+    <h1>Time Traveler</h1> 
+    <figure>
+      <img src="img/mai1.png" alt="1" class="chibi">
+      <img src="img/kyo1.png" alt="2" class="chibi">
+      <img src="img/kazu.png" alt="3" class="chibi">
+      <img src="img/sakura.png" alt="4" class="chibi">
+      <img src="img/chrono.png" alt="5" class="chibi">
+      <img src="img/pietro.png" alt="6" class="chibi">
+    </figure>
+    
+    <nav class="main-nav">
+        <a href="#hero">Inicio</a>
+        <a href="#galeria">Galería</a>
+        <a href="#tab">Tabla</a>
+        <a href="#for">Formulario</a>
+        <a href="#con">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- BOTÓN HAMBURGUESA FIJO PARA EL MENÚ LATERAL -->
+  <button class="open-menu" aria-label="Abrir menú lateral"><img id="toggleIcon" src="img/boton.png"></button>
+
+  <!-- MENÚ LATERAL DESLIZANTE -->
+  <nav id="sideMenu" class="side-menu">
+        <a href="#hero">Inicio</a>
+        <a href="#galeria">Galería</a>
+        <a href="#tab">Tabla</a>
+        <a href="#for">Formulario</a>
+        <a href="#con">Contacto</a>
+    
+  </nav>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+
+    <!-- SECCIÓN HERO -->
+    <section id="hero">
+      <header>
+        <br>
+        <h2>¡Bienvenido al mundo de Time Traveler!</h2>
+        <br>
+      </header>
+      <article>
+        <h3>Sinopsis</h3>
+        <hr>
+        <p>La joven <strong>Mizuno Mai</strong> es el resultado de la relación entre un espíritu y un ser humano. Ella se encuentra desde el principio de su vida atrapada en muchos misteriosos y curiosos mundos donde en cada uno hay seres, llamados <strong><em>Guardianes</em></strong>.</p>
+        <p>Pero su nacimiento rompió las reglas de <strong>Dios</strong>. Y su abuelo está detrás de ella en orden de borrar su existencia y todo alrededor de ella.</p>
+        <p>Debido a esto, con un poco de ayuda ella será capaz de viajar al <strong>pasado</strong>, <strong>presente</strong> y <strong>futuro</strong>, y necesitará crecer en muchas maneras para enfrentar sus miedos</p>
+        <br>
+        <figure>
+              <img src="img/intro.png" alt="Intro de TT">
+        </figure>
+        <br>
+      </article>
+    </section>
+
+    <!-- SECCIÓN GALERÍA -->
+    <section id="galeria">
+      <br><br>
+      <h2>Galería de imágenes</h2>
+      <br><br>
+      <figure>
+        <a href="/img/img4.png"><img src="/img/img4.png" alt="1"></a>
+        <a href="/img/img5.png"><img src="/img/img5.png" alt="2"></a>
+        <a href="/img/img6.png"><img src="/img/img6.png" alt="3"></a>
+        <a href="/img/img7.png"><img src="/img/img7.png" alt="4"></a>
+        <a href="/img/img8.png"><img src="/img/img8.png" alt="5"></a>
+        <a href="/img/img1.png"><img src="/img/img1.png" alt="6"></a>
+        <a href="/img/img2.png"><img src="/img/img2.png" alt="7"></a>
+        <a href="/img/img3.png"><img src="/img/img3.png" alt="8"></a>
+        <a href="/img/img9.png"><img src="/img/img9.png" alt="9"></a>
+      </figure>
+      <br><br>
+    </section>
+    <!-- SECCIÓN TABLA -->
+    <section id="tab">
+      <br>
+      <h2>Especificaciones</h2>
+      <br><br>
+        <table>
+          <tr>
+            <th colspan="2">Creadora</th>
+            <th>Commodorette</th>
+          </tr>
+          <tr>
+            <th colspan="2">Origen</th>
+            <th>Argentina</th>
+          </tr>
+          <tr>
+            <th colspan="2">Año de Publicación</th>
+            <th>2015</th>
+          </tr>
+          <tr>
+            <th colspan="2">Género</th>
+            <th>Aventura Misterio</th>
+          </tr>
+          <tr>
+            <th colspan="2">Creado con</th>
+            <th>RPG Maker 2003</th>
+          </tr>
+          <tr>
+            <th colspan="2">Duración</th>
+            <th>8 horas</th>
+          </tr>
+          <tr>
+            <th colspan="2">Última Actualización</th>
+            <th>Febrero 2017</th>
+          </tr>
+          <tr>
+            <th colspan="2">Sala Bonus</th>
+            <th>Sí</th>
+          </tr>
+          <tr>
+            <th colspan="2">Finales</th>
+            <th>2 Finales (Bueno y Malo)</th>
+          </tr>
+          <tr>
+            <th colspan="2">Traducción</th>
+            <th>Español e Inglés</th>
+          </tr>
+        </table>
+     <br>
+    </section>
+
+    <!-- SECCIÓN FORMULARIO -->
+    <section id="for">
+      <br>
+      <h2>Formulario</h2>
+        <h3>¿Quieres saber más sobre Time Traveler?</h3>
+        <br>
+        <form>
+          <fieldset>
+            <br>
+            <legend>Datos</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+             <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" maxlength="15" placeholder="+34 11111111" required>
+          </fieldset>
+          <input type="submit" value="Envíar" class="boton">
+          <input type="reset" value="Borrar" class="boton">
+        </form>
+    </section>
+
+    <!-- SECCIÓN CONTACTO / CIERRE -->
+    <section id="con">
+      <br>
+      <h2>Contacta a Commodorette</h2>
+          <ul>
+            <li><a href="https://x.com/Commodorette?s=20">Twitter/X</a></li>
+            <li><a href="https://www.tumblr.com/rimururu">Tumblr</a></li>
+            <li><a href="https://www.instagram.com/commodorette?igsh=bXY5ZTVtYXViZXB4">Instagram</a></li>
+            <li><a href="https://commodogames.wordpress.com/">Página Oficial de Descarga de sus Juegos</a></li>
+          </ul>
+    </section>
+    <br><br>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="site-footer">
+    <p><a href="#">&copy; 2025 — 1º DAM, Rocío Lobato Monferrer</a></p>
+  </footer>
+
+  <!-- JavaScript mínimo para abrir/cerrar el menú lateral -->
+  <script>
+    const sideMenu = document.getElementById("sideMenu");
+    const toggleBtn = document.querySelector(".open-menu");
+    const toggleIcon = document.getElementById("toggleIcon"); 
+    toggleBtn.addEventListener("click", () => {
+        sideMenu.classList.toggle("active");
+        toggleBtn.classList.toggle("active");
+        if (sideMenu.classList.contains("active")) {
+            toggleIcon.src = "img/boton-abierto.png"; 
+        } else {
+            toggleIcon.src = "img/boton.png";
+        }
+    });
+</script>
+
+</body>
+</html>
