@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: "Título h1";
-  src: url("fonts/Digital Change Demo.ttf") format('truetype');
+  src: url("fonts/Digital-Change-Demo.ttf") format('truetype');
 } 
 
 @font-face {
@@ -270,6 +270,7 @@ fieldset, input {
 .site-footer a:hover{
   color: whitesmoke;
 }
+
 
 
 
