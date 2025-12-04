@@ -9,17 +9,17 @@
 
 @font-face {
   font-family: "Título h1";
-  src: url("/fonts/Digital\ Change\ Demo.ttf") format('truetype');
+  src: url("fonts/Digital\ Change\ Demo.ttf") format('truetype');
 } 
 
 @font-face {
   font-family: "Opciones";
-  src: url("/fonts/Blackney-Bold.ttf") format('truetype');
+  src: url("fonts/Blackney-Bold.ttf") format('truetype');
 }
 
 @font-face {
   font-family: "text";
-  src: url("/fonts/Petrona-VariableFont_wght.ttf") format('truetype');
+  src: url("fonts/Petrona-VariableFont_wght.ttf") format('truetype');
 }
 
 /* ===== ESTILOS BASE ===== */
@@ -270,6 +270,7 @@ fieldset, input {
 .site-footer a:hover{
   color: whitesmoke;
 }
+
 
 
 
