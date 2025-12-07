@@ -11,11 +11,14 @@
   font-family: "Título h1";
   src: url("fonts/Digital-Change-Demo.ttf") format('truetype');
 } 
+/* RLM 07/12 No funciona esta fuente por motivos que desconozco, solo funciona cuando se utiliza el css */ 
 
 @font-face {
   font-family: "Opciones";
   src: url("fonts/Blackney-Bold.ttf") format('truetype');
 }
+
+/* RLM 07/12 No funciona esta fuente por motivos que desconozco, solo funciona cuando se utiliza el css */ 
 
 @font-face {
   font-family: "text";
@@ -270,6 +273,7 @@ fieldset, input {
 .site-footer a:hover{
   color: whitesmoke;
 }
+
 
 
 
